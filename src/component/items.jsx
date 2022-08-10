@@ -16,7 +16,7 @@ const Item = (props)=> {
             <img src={'/images/'+props.data.image}></img>
             <h3>{props.data.title}</h3>
             <label>Category: {props.data.category}</label>
-              <label>Price: {props.data.price.toFixed(2)}</label>
+                     <label>Price: {props.data.price.toFixed(2)}</label>
             <QuantityPicker className='picker' onChange={onQuantityChange}></QuantityPicker>
             <div>
                 <label>Total: ${((props.data.price)*(quantityState)).toFixed(2)}</label>

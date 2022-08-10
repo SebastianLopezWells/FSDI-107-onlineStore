@@ -23,7 +23,7 @@ const NavBar = () =>{
           </ul>
           </div>
         </div>
-      </nav>
+         </nav>
     );
 }
 

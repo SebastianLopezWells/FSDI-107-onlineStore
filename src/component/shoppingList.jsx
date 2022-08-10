@@ -24,9 +24,9 @@ const ShoppingList = () => {
             <button type='submit' className='btn btn-primary' onClick={Save}>Add to the List</button>
         
             <ul className='orderedList'>
-                {items.map((item) =>  <li>{item}</li>
+                  {items.map((item) =>  <li>{item}</li>
                 )}
-            </ul>
+            </ul>   
         </div>
     );
 }
